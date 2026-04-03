@@ -3,7 +3,8 @@
     "rootNamespace": "AgentBridge.Editor",
     "references": [
         "AgentBridge.Runtime",
-        "AgentBridge.MCP"
+        "AgentBridge.MCP",
+        "Newtonsoft.Json"
     ],
     "includePlatforms": [
         "Editor"

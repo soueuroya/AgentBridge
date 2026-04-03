@@ -17,6 +17,12 @@ namespace AgentBridge.Core.Providers
         [Tooltip("The API key, if authentication is required. Leave blank for local server instances.")]
         public string ApiKey;
 
+        [Tooltip("When enabled, requests are written to the local filesystem for an active agent to intercept, bypassing the network completely.")]
+        public bool UseFileStream = false;
+
+        [Tooltip("When enabled, the system connects to a local BridgeLinkNode for real-time bi-directional communication.")]
+        public bool UseRealTimeLink = true;
+
         [Tooltip("Request timeout duration in seconds.")]
         public int TimeoutSeconds = 30;
     }

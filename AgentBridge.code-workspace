@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../antigravity-link-extension"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "AgentBridge"
+	}
+}

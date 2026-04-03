@@ -27,8 +27,10 @@ namespace AgentBridge.Core.Registry
             }
 
             return RegisteredActions.Where(action => 
-                action.SupportedContextTypes.Contains("*") || 
-                action.SupportedContextTypes.Contains(contextType));
+                action != null && 
+                action.SupportedContextTypes != null && 
+                (action.SupportedContextTypes.Contains("*") || 
+                 action.SupportedContextTypes.Contains(contextType)));
         }
     }
 }
