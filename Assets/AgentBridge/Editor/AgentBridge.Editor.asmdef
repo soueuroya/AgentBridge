@@ -2,7 +2,8 @@
     "name": "AgentBridge.Editor",
     "rootNamespace": "AgentBridge.Editor",
     "references": [
-        "AgentBridge.Runtime"
+        "AgentBridge.Runtime",
+        "AgentBridge.MCP"
     ],
     "includePlatforms": [
         "Editor"

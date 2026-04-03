@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0f61bdc4c74c646ba922620b6e0351, type: 3}
+  m_Name: DefaultCapabilityRegistry
+  m_EditorClassIdentifier: AgentBridge.Runtime::AgentBridge.Core.Registry.CapabilityRegistry
+  RegisteredActions:
+  - {fileID: 11400000, guid: fb0e04f6924d1cc4caace6779d0f9bf7, type: 2}
+  - {fileID: 11400000, guid: eaf25898e6bf4b5489d3e06043c202d0, type: 2}
+  - {fileID: 11400000, guid: 57488436b7189354886023f54bf3997e, type: 2}
+  - {fileID: 11400000, guid: 5746e34c11c95924faf14eadf95f2bf5, type: 2}
+  - {fileID: 11400000, guid: 13860b55815073b4f918e167eb8a206a, type: 2}
+  - {fileID: 11400000, guid: 60198409d5f600c43973e6089cff80d2, type: 2}
+  - {fileID: 11400000, guid: 46dcd85632f9de84abcb4938fa74a818, type: 2}
+  - {fileID: 11400000, guid: 6bf5e5c03f476a54d981866fa9146981, type: 2}
+  - {fileID: 11400000, guid: f71228381d1ede84b9dd52ee586f47e6, type: 2}
+  - {fileID: 11400000, guid: 0a64964348c0ec0438dc52bf359cf501, type: 2}
+  - {fileID: 11400000, guid: 1e9b84845bb5a544f9a65f66e5843f0f, type: 2}
+  - {fileID: 11400000, guid: 2bff32e92e6570e4da47a465febee35e, type: 2}
+  - {fileID: 11400000, guid: 9789d24b3425daf4cbe488307ad70f8d, type: 2}
+  - {fileID: 11400000, guid: c4c870e4dbc6a134a8f0a396905e169f, type: 2}
