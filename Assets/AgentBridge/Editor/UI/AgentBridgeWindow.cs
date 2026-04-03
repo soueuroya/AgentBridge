@@ -17,6 +17,7 @@ namespace AgentBridge.Editor.UI
         private CommandExecutionEngine _engine;
 
         private Vector2 _scrollPos;
+        private Vector2 _inspectorScrollPos;
         private List<string> _executionLogs = new List<string>();
 
         [MenuItem("Window/AgentBridge")]
@@ -82,8 +83,10 @@ namespace AgentBridge.Editor.UI
             
             if (_selectedTab == 0)
             {
+                _inspectorScrollPos = EditorGUILayout.BeginScrollView(_inspectorScrollPos);
                 DrawContextSection();
                 DrawActionsSection();
+                EditorGUILayout.EndScrollView();
             }
             else
             {
@@ -255,13 +258,13 @@ namespace AgentBridge.Editor.UI
                 return;
             }
 
-            EditorGUILayout.LabelField("Current Selection Context", EditorStyles.boldLabel);
-            EditorGUI.indentLevel++;
-
             if (Selection.activeObject != null)
             {
-                EditorGUILayout.LabelField("Target", Selection.activeObject.name);
-                EditorGUILayout.LabelField("Type", Selection.activeObject.GetType().Name);
+                EditorGUILayout.LabelField(
+                string.Format("Current Selection Context: {0} - {1}", Selection.activeObject.name, Selection.activeObject.GetType().Name),
+                EditorStyles.boldLabel
+                );
+                EditorGUI.indentLevel++;
                 
                 // Extra UI polish based on file path integrations
                 if (AssetDatabase.Contains(Selection.activeObject))
