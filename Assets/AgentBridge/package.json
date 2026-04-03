@@ -1,0 +1,17 @@
+{
+  "name": "com.agentbridge.core",
+  "version": "0.1.0",
+  "displayName": "AgentBridge for Unity",
+  "description": "Provider-agnostic AI integration layer using the Model Context Protocol (MCP) to connect Unity with AI agents.",
+  "unity": "2021.3",
+  "author": {
+    "name": "AgentBridge Contributors"
+  },
+  "keywords": [
+    "ai",
+    "mcp",
+    "agents",
+    "llm",
+    "unity"
+  ]
+}

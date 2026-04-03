@@ -1,0 +1,16 @@
+{
+    "name": "AgentBridge.MCP",
+    "rootNamespace": "AgentBridge.Core.MCP",
+    "references": [
+        "AgentBridge.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
